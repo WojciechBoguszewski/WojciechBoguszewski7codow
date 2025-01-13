@@ -154,12 +154,15 @@
    }
    nav h2{
       line-height: 30px;
+      margin: 3%
    }
    .right .ab2 {
       line-height: 10vh;
+      padding: 3#
    }
    .right .ab2 li, h2, ol, ul{
       margin: 1%;
+      padding: 3%
    }
   }
   
