@@ -130,7 +130,7 @@ ol,li, h2 {
       width: 45%;  /* Ustawiamy .left i .main obok siebie */
     }
       * {
-   line-height: 3vh;
+   line-height: 4.3vh;
      }
     .right, #right {
       width: 100%;  /* .right zajmuje pełną szerokość i znajduje się pod nimi */
