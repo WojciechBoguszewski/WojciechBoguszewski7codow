@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+                    
+
+    </style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="menu.html" class="active">Powrót do strony głównej</a>
+        <a href="problem.html">PRO8BL3M</a>
+        <a href="groundzero.html">Ground Zero Mixtape</a>
+        <a href="widmo.html">Widmo</a>
+        <a href="artbrut2.html">Art Brut 2</a>
+        <a href="fightclub.html">Fight Club</a>
+        <a href="proxlem.html">PROXL3M</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <nav>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </nav>
+    <div  id="title">
+        <h1>PRO8BL3M - Art Brut</h1>
+    </div>
+    <div class="container">
+        <div class="left">
+            <img src="media/artbrut1.jpg" alt="">
+          </div>
+          
+          <div class="main">
+            <p>"Art Brut" to album polskiego zespołu Problem, wydany w 2014 roku. Na tym albumie zespół prezentuje charakterystyczne połączenie alternatywnego rocka, post-punka i indie rocka, wzbogacone o surowe, introspektywne teksty. Brzmienie albumu charakteryzuje się energicznymi, szybkim rytmami i emocjonalnymi wokalami, które poruszają tematy buntu, osobistych zmagań i krytyki społecznej. <br> <br>
+
+                Kluczowe cechy albumu "Art Brut" to: <br> <br>
+                
+                Lista utworów: Album zawiera mieszankę energetycznych, agresywnych utworów oraz bardziej refleksyjnych momentów, z wyraźną surowością zarówno w muzyce, jak i tekstach. <br> <br>
+                Tematyka tekstów: Teksty utworów często poruszają kwestie osobiste oraz społeczne, w tym bunt wobec oczekiwań społecznych, wewnętrzne zmagania i krytykę współczesnego życia. <br> <br>
+                Styl muzyczny: W muzyce "Art Brut" słychać wpływy punk rocka, alternatywy i pewnej dozy eksperymentalizmu, z naciskiem na chropowate riffy gitarowe i dynamiczne, pędzące rytmy. <br> <br>
+                Odbiór: Album "Art Brut" spotkał się z pozytywnymi recenzjami, z uznaniem dla szczerości i energii, które zespół wnosi do swojej muzyki.</p>
+          </div>
+          
+          <div class="right">
+            <form action="/submit" method="POST">
+                <label for="name">Twoje imię:</label>
+                <input type="text" id="name" name="name" required>
+          
+                <label for="email">Twój email:</label>
+                <input type="email" id="email" name="email" required>
+          
+                <label for="artbrut">Co wiesz o Art Brut?</label>
+                <textarea id="artbrut" name="artbrut" rows="4" placeholder="Opisz swoje zdanie..." required></textarea>
+          
+                <label for="opinion">Jakie masz zdanie na temat Art Brut?</label>
+                <input type="text" id="opinion" name="opinion" required>
+          
+                <input type="submit" value="Wyślij">
+                <input type="reset" value="Wyczyść">
+          </div>
+    </div>
+
+
+    <footer>
+        <p>Wojciech Boguszewski 2tc 2025</p>
+    </footer>
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
