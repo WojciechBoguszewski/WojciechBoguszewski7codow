@@ -68,7 +68,7 @@ ol,li, h2 {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    line-height: 2vh;
+    line-height: 2.5vh;
     margin: 0;  /* Zeruje marginesy, które mogą wpływać na układ */
   }
 #title {
