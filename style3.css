@@ -129,7 +129,9 @@ ol,li, h2 {
     .left, .main {
       width: 45%;  /* Ustawiamy .left i .main obok siebie */
     }
-  
+      * {
+   line-height: 3vh;
+     }
     .right, #right {
       width: 100%;  /* .right zajmuje pełną szerokość i znajduje się pod nimi */
       margin-top: 20px;  /* Dodanie marginesu, aby oddzielić .right od .left i .main */
