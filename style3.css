@@ -144,6 +144,20 @@
       display: block;
      
     }
+    #menuh1 {
+      margin-top: 10%;
+      line-height: 10vh;
+      
+   }
+   nav {
+      margin-top: 10%;
+   }
+   .right .ab2 {
+      line-height: 10vh;
+   }
+   .right .ab2 li, h2 {
+      margin: 1%;
+   }
   }
   
 
