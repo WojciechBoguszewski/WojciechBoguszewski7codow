@@ -163,12 +163,13 @@ ol,li, h2 {
       margin: 3%
    }
    .right .ab2 {
-      line-height: 10vh;
-      padding: 3#
+      
+      padding: 3%
    }
    .right .ab2 li, h2, ol, ul{
       margin: 1%;
       padding: 3%
+      line-height: 40px;
    }
   }
   
@@ -559,17 +560,8 @@ footer {
    nav {
       margin-top: 10%;
    }
-   .right .ab2 {
-      line-height: 10vh;
-   }
-   .right .ab2 li, h2 {
-      margin: 1%;
-   }
 
 }
 
-.right .ab2 {
-   line-height: 40px;
-}
 
 /* resztastron */
