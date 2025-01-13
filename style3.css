@@ -3,7 +3,49 @@ ol,li, h2 {
    margin: 10px;
    padding:10px;
 }
+/* Title Div Styling */
+#title {
+  text-align: center;
+  animation: fadeIn 2s ease-in-out, moveUp 2s ease-in-out;
+}
 
+/* H1 Styling */
+#title h1 {
+  font-size: 3rem;
+  color: #61dafb;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  animation: colorPulse 3s infinite alternate;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Move-up Animation */
+@keyframes moveUp {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Color Pulse Animation */
+@keyframes colorPulse {
+  from {
+    color: #61dafb;
+  }
+  to {
+    color: #ffffff;
+  }
+}
 
 .topnav {
    
