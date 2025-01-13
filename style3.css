@@ -12,7 +12,7 @@ ol,li, h2 {
 /* H1 Styling */
 #title h1 {
   font-size: 3rem;
-  color: #61dafb;
+  color: #000;
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   animation: colorPulse 3s infinite alternate;
 }
