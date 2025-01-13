@@ -158,7 +158,7 @@
    .right .ab2 {
       line-height: 10vh;
    }
-   .right .ab2 li, h2 {
+   .right .ab2 li, h2, ol, ul{
       margin: 1%;
    }
   }
