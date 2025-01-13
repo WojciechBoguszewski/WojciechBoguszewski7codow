@@ -296,13 +296,13 @@ iframe {
     transform: translateY(-50%);
   }
 
-  #right a {
+  .right a {
     line-height: 30px;
     top: 50%;
     margin-top: auto;
     text-align: center;
     text-decoration:overline, underline;
-    color: black;
+    color: white;
    
   }
 
@@ -535,6 +535,9 @@ footer {
    }
    .right .ab2 {
       line-height: 10vh;
+   }
+   .right .ab2 li, h2 {
+      margin: 1%;
    }
 
 }
