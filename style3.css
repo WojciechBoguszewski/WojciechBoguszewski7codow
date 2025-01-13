@@ -40,10 +40,10 @@ ol,li, h2 {
 /* Color Pulse Animation */
 @keyframes colorPulse {
   from {
-    color: #61dafb;
+    color: #fff;
   }
   to {
-    color: #ffffff;
+    color: #000;
   }
 }
 
