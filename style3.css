@@ -8,6 +8,19 @@ ol,li, h2 {
   text-align: center;
   animation: fadeIn 2s ease-in-out, moveUp 2s ease-in-out;
 }
+#menuh1 {
+   animation: fadeSlideIn 2s ease-in-out;
+}
+ @keyframes fadeSlideIn {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 
 /* H1 Styling */
 #title h1 {
